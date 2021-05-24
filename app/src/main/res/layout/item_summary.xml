@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:background="@color/white">
+    <LinearLayout
+
+    android:id="@+id/llList"
+
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:text="Name"
+
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:text="Count"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:text="Total"
+        android:gravity="end"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</LinearLayout>
